@@ -16,14 +16,14 @@ Make sure you have npm installed.
 
 ### Files authored
 
-Mostly everything I coded is in `App.js`. If I had more time, 
+Mostly everything I coded is in `src/App.js`. If I had more time, 
 I would split each component into its own file to stay organized. 
 
 ### Challenges I faced
 * Loading the Google Places API in a React environment. I 
 haven't worked with inline scripts for APIs with React. This 
 [link](https://www.fullstackreact.com/articles/how-to-write-a-google-maps-react-component/) helped. 
-Everything in `./api` was found there.
+Everything in `src/api` was found there.
 * Getting photos. It seems that Google's documentation for 
 place photos  is outdated. Specifically, there was no `photo_reference` 
 in the `photos` array of each result.
